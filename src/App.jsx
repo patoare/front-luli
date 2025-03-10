@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import './App.css'
 import HomePage from './pages/HomePage'
 import Contact from './pages/Contact'
-import AboutMe from './pages/AboutMe'
 import Videos from './pages/Videos'
 import Photos from './pages/Photos'
 
@@ -17,7 +16,6 @@ function App() {
         <Route path="/" element ={< HomePage />} />
         <Route path="/photos" element ={< Photos />} />
         <Route path="/videos" element ={< Videos />} />
-        <Route path="/aboutMe" element ={< AboutMe />} />
         <Route path="/contact" element ={< Contact />} />
       </Routes>
       < Footer />

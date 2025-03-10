@@ -16,11 +16,11 @@ const Footer = () => {
     return (
         <>
         <div className={`Footer ${footerStyle}`}>
-            <Link to='/' className="txtLogo"><h2>Agus Broggia </h2></Link>
-            <Link className="txtFooter2" to="https://www.instagram.com/agusbroggia/" target="_blank" rel="noopener noreferrer">
+            <Link to='/' className="txtLogo"><h2>Luli Frenkel </h2></Link>
+            <Link className="txtFooter2" to="https://www.instagram.com/lulifrenkel/" target="_blank" rel="noopener noreferrer">
                <h3>Instagram</h3>
                </Link>
-               <div  className="txtFooter3"><h3>agusbroggia@gmail.com</h3></div>
+               <div  className="txtFooter3"><h3>luli@gmail.com</h3></div>
                
         </div>
         </>

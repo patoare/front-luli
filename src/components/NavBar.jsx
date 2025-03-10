@@ -16,10 +16,10 @@ const NavBar = () => {
     return (
         <>
         <div className={`NavBar ${navBarStyle}`}>
-            <Link to='/' className="txtLogo"><h2>Agus Broggia </h2></Link>
+            <Link to='/' className="txtLogo"><h2>Luli Frenkel </h2></Link>
             <ul className="txtMenu">
                 <li><Link to="/"> Home </Link> </li>
-                <li><Link to="/aboutMe"> About me </Link> </li>
+               
 
                 <li className="dropDown">
                     <Link className="dropdown-btn"> Portfolio </Link>

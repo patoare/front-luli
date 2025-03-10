@@ -26,7 +26,8 @@ html {
 /*Navbar */
 .NavBar {
   width: 100%;
-  background-color: transparent; 
+  background-color: white; 
+  border: 3px solid #333;
   position: relative; 
   height: 200px; 
   display: grid;
@@ -35,7 +36,8 @@ html {
 }
 
 .NavBar h2{
-  color: white;
+  color: black;
+  font-weight: 900;
 }
 
 .txtLogo {
@@ -43,8 +45,6 @@ html {
   margin-right: 15rem;
   margin-top: 2rem;
 }
-
-
 
 .txtMenu {
   grid-column: 3;
@@ -56,7 +56,8 @@ html {
 }
 
 .txtMenu a {
-  color: white;
+  color: black;
+  font-weight: 900;
 }
 
 .txtMenu a:hover {
@@ -201,6 +202,30 @@ text-align: left;
   box-shadow: 0 4px 12px black;
 }
 
+/*HomePage*/
+.cuerpo {
+  height:40rem;
+}
+
+
+.about-txt {
+  background-color: #ffffff49;
+  width: 30rem;
+  height: 20rem;
+  color: black;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: transparent;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+
 /*Footer*/
 .cuerpoFooter {
   position: relative;
@@ -212,14 +237,16 @@ text-align: left;
 
 }
 
-
 .Footer {
-  background-color: transparent; /* Background color for the footer */
+  
+  width: 100%;
+  background-color: #ffff;
+  border: 3px solid #333;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center; /* Center the items horizontally */
   align-items: center; /* Center the items vertically */
-  color: white;
+  color: black;
   margin-top: 10rem;
 }
 
@@ -229,15 +256,15 @@ text-align: left;
 
 
 .Footer h2, h3{
-color: white;
+color: black;
 }
 
 .Footer a {
-  color: white;
+  color: black;
 }
 
 .Footer.home-footer h3 {
-  color: white;
+  color: black;
 }
 
 .Footer.other-footer h2, h3{
